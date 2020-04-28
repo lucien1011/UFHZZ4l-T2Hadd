@@ -17,4 +17,4 @@ for pdDir in pdNames:
         cmd = "hadd -f "+os.path.join(outputDir,pdName,dataset_name+".root")+" "+crabDir+"*/*/*/*.root"
         print "="*50
         print cmd
-        os.system(cmd)
+        #os.system(cmd)
